@@ -9,7 +9,7 @@ line length.
 ### Implementation details
 
 The implementation is based on the [external sort algorithm](https://en.wikipedia.org/wiki/External_sorting).
-It consists of two steps: split and chunk. 
+It consists of two steps: split and merge. 
 
 **Split step**
 1. Split the large file into N files each K-bytes size (depends on memory limit).
