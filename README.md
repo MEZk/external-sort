@@ -1,12 +1,12 @@
 # External merge sort
 
-###Problem
+### Problem
 
 Given a large file which can be fully loaded into RAM. The file contains strings separated with some delimiter.
 The task is to sort the file. Large file generator should also be implemented. Generator parameters are lines number and
 line length.
 
-###Implementation details
+### Implementation details
 
 The implementation is based on the [external sort algorithm](https://en.wikipedia.org/wiki/External_sorting).
 It consists of two steps: split and chunk. 
@@ -36,7 +36,7 @@ The heap entries is heapified (min heap).
       
 At the end of the merge step the output file will have all the elements in sorted order.
 
-###Example
+### Example
 
 Given the large file with the following content:
 ```
